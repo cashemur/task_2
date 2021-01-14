@@ -5,7 +5,7 @@ sum = 0#Обьявление переменной для вычисления с
 for i in range(len(firstArray)):#Вычисление суммы всех элементов массива
     sum += firstArray[i]
 avg = sum / len(firstArray)#Вычесление среднего арифмитического
-print("Avarage =", avg)
+print("Average =", avg)
 newArray = []#Новый массив для записи в него элементов из массива firstArray
 for i in range(len(firstArray)):
     if (avg + avg * 0.2) >= firstArray[i] >= (avg - avg * 0.2):#Поиск значения, которые на 20% отличаются от среднего
